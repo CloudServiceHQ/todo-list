@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Header from '@_component/Header';
-import RQProvider from '@lib/ReactQueryProvider';
 
 import './_styles/globals.css';
 
@@ -17,12 +16,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <RQProvider>
-          <div className="wrap">
-            <Header />
-            {children}
-          </div>
-        </RQProvider>
+        <div className="wrap">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );
