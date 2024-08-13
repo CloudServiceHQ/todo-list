@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Header from '@_component/Header';
 
 import './_styles/globals.css';
 
@@ -16,10 +15,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <div className="wrap">
-          <Header />
-          {children}
-        </div>
+        <div className="wrap">{children}</div>
       </body>
     </html>
   );
