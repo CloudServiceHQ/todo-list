@@ -16,6 +16,7 @@
 
 .search>input {
     flex-grow: 1;
+    height: 24px;
     margin: 0 20px;
 }
 
