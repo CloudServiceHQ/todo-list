@@ -29,9 +29,15 @@
     background-color: #FF5845;
     border-radius: 32px;
     transition: all ease 0.3s;
-    }
-    
-    .button-item:disabled {
-        cursor: default;
-        background-color: #c0c0c0;
+}
+.button-item:hover {
+    background-color: #FF7566;
+}
+
+.button-item:active {
+    background-color: #e54f3e;
+}
+.button-item:disabled {
+    cursor: default;
+    background-color: #c0c0c0;
 }
