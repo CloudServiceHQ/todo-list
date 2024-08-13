@@ -38,6 +38,12 @@ export default function TaskInput({ onClick }: IProps) {
     }
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>, value: string) => {
+    if (e.key === 'Enter') {
+      handleClick(value);
+    }
+  };
+
   useEffect(() => {
     setError(undefined);
   }, [task]);
@@ -45,7 +51,12 @@ export default function TaskInput({ onClick }: IProps) {
   return (
     <div className={cx('search-wrapper')}>
       <div className={cx('search')}>
-        <input placeholder="Add your task" value={task} onChange={e => setTask(e.currentTarget.value)} />
+        <input
+          placeholder="Add your task"
+          value={task}
+          onChange={e => setTask(e.currentTarget.value)}
+          onKeyDown={e => handleKeyDown(e, task)}
+        />
         <button
           className={cx('button-item')}
           onClick={() => handleClick(task)}
