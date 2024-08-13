@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 
 import TodoContainer from './_component/TodoContainer';
 
-import styles from './layout.module.css';
+import styles from './page.module.css';
 
 const cx = classNames.bind(styles);
 
