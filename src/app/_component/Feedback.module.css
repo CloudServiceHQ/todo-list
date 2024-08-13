@@ -1,0 +1,51 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.wrap span {
+    flex-grow: 0;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    text-align: left;
+}
+
+.icon::before {
+    content: '';
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon.error::before {
+    background-image: url('/images/icon/icon-error-circle.svg');
+}
+
+.icon.success::before {
+    background-image: url('/images/icon/icon-check-circle.svg');
+}
+
+.icon.info::before {
+    background-image: url('/images/icon/icon-info-circle.svg');
+}
+
+.wrap span.red {
+    color: #f74949;
+}
+
+.wrap span.green {
+    color: #09a726
+}
+
+.wrap span.gray {
+    color: #828282
+}
