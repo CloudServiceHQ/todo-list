@@ -1,0 +1,21 @@
+.wrap {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    padding: 34px 30px;
+    gap: 27px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
