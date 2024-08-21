@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@tippyjs/react": "^4.2.6",
-    "axios": "^1.6.8",
+    "axios": ">=1.7.4",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.12",
     "env-cmd": "^10.1.0",
