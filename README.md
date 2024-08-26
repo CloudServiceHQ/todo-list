@@ -1,6 +1,6 @@
 <h1 align="center"> To-Do List </h1> <br>
 <p align="center">
-    <img alt="To-Do-List" title="To-Do-List" src="./public/images/main.jpg" width="450">
+    <img alt="To-Do-List" title="To-Do-List" src="https://github.com/user-attachments/assets/11ac4905-4b4d-4f86-8055-f1d94d5f48b4" width="1000">
 </p>
 
 <p align="center">
